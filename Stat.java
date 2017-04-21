@@ -1,11 +1,5 @@
-
-/*
-* To change this license header, choose License Headers in Project Properties.
-* To change this template file, choose Tools | Templates
-* and open the template in the editor.
-*/
 //Ian Spooner
-//Week 8 - Titanic
+//Titanic
 //03/06/16
 //This program echos data from a file with statistical additions
 //import packages
