@@ -28,22 +28,24 @@ public class FileLoader {
         }
         switch (sc.next()) {
             case "port":
-                //addPort(sc);
+                Port.addPort(sc);
                 break;
             case "dock":
-                //addPort(sc);
+                Dock.addDock(sc);
                 break;
             case "pship":
-                //addPort(sc);
+                PassengerShip.addShip(sc);
                 break;
             case "cship":
-                //addPort(sc);
+                CargoShip.addShip(sc);
                 break;
             case "job":
-                //addPort(sc);
+                Jobs.addJob(sc);
                 break;
             case "person":
-                //addPort(sc);
+                Persons.addPerson(sc);
+                break;
+            case "//"
                 break;
             default:
                 GUI.warning("There was a parsing error...");
